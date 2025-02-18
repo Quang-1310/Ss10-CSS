@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e5e5e5;
+    padding: 30px;
+}
+
+.container-link{
+    display: flex;
+    gap: 50px;
+}
+
+.container .link{
+    list-style: none;
+}
+
+.container .link a{
+    text-decoration: none;
+    color: #949494;
+}
+
+
+button{
+    background-color: #8d939e;
+    color: #e3e3e3;
+    padding: 3px 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.container .home{
+    list-style: none;
+}
+
+.container .home a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
