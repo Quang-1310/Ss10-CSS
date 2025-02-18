@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-content{
+    width:35%;
+    margin: 20px;
+    background-color: #f9fafc;
+    padding: 20px;
+}
+
+.basketball{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.container-basketball{
+    position: relative;
+}
+
+button{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+}
+
+.avatar{
+    width: 40px;
+    border-radius: 50%;
+    
+}
+
+.container-avatar{
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    top: 15px;
+    left: 70px;
+}
+
+p{
+    color: #8a8b8c;
+}
